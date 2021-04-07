@@ -14,8 +14,9 @@ def func(x):
 
 #### Interface
 ```python
-# Build a decorator as interface between the function to compute and your distributed infrastructure
 @compute_this()
 def func(x):
     return x*x
+
+out = func(x).compute()
 ```
