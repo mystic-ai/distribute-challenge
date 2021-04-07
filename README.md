@@ -8,8 +8,9 @@ def func(x):
 ```
 
 ### Deliverable
-- The function will be serialised and sent to a local server where it will be distributed across different workers.
+- Build an API that distributes a given function across different workers.
 - The number of workers will be allocated to maximise throughput.
+- Load test the API and demonstrate with a monitoring system of your choice throughput and allocation to each worker.
 
 #### Interface
 ```python
@@ -18,15 +19,3 @@ def func(x):
 def func(x):
     return x*x
 ```
-#### Stress test
-```python
-# Run this to test
-for i in range(20):
-    out = func(i)
-```
-
-
-
-
-
-
