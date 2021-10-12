@@ -18,5 +18,5 @@ def func(x):
 def func(x):
     return x*x
 
-out = func(x).compute()
+out = func(x).run()
 ```
