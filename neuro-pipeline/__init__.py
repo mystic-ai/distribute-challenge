@@ -1,0 +1,2 @@
+def artifacts():
+    return None
