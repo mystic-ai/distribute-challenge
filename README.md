@@ -36,3 +36,8 @@ assert out == 4
   - The user function is sent to a single worker. Workers run a single user function at a time.
 - Load test the API and demonstrate with a monitoring system of your choice throughput and allocation to each worker. Measure how your system scales with the number of workers and functions.
 - You can use open source libraries to help you solve the challenge, however the more of your own skills you show the better! **Note: Ray cannot be used**.
+
+#### Architecture diagram of deliverable
+
+![alt text](https://uploads-ssl.webflow.com/5fbf86f72a3ba641ee136dbe/618c0ad1dd5c84a42917d914_Group%201.png)
+
