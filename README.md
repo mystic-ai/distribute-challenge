@@ -1,4 +1,4 @@
-# Welcome to the Neuro Challenge
+# Welcome to the Mystic Challenge
 
 Your goal is to create a service that can receive user-provided functions (see example function below) remotely and distribute their execution amongst multiple workers. Users can interact with the service via a Python client you should also create. 
 Example function:
